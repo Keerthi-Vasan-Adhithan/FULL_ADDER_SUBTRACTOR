@@ -57,6 +57,7 @@ Write the detailed procedure here
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 
 Developed by:Ashwin Kumar A
+
 RegisterNumber:212223040021
 ```
 module Fulladdsub(a,b,cin,sum,carry,BO,DIFF);
