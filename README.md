@@ -53,11 +53,12 @@ Full Subtractor
 Write the detailed procedure here
 
 **Program:**
-```
+
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
 Developed by:Ashwin Kumar A
 RegisterNumber:212223040021
-
+```
 module Fulladdsub(a,b,cin,sum,carry,BO,DIFF);
 input a,b,cin;
 output sum,carry,BO,DIFF;
@@ -68,6 +69,7 @@ assign BO=(~a&b)|(~(a^b)& cin);
 endmodule
 ```
 **RTL Schematic**
+
 ![Screenshot 2024-03-19 143953](https://github.com/AshwinKumar-Saveetha/FULL_ADDER_SUBTRACTOR/assets/155129814/80d06b2e-6dbd-4f67-bf6b-d99f13b77d0c)
 
 **Output Timing Waveform**
